@@ -11,7 +11,7 @@ const App = () => {
   ]);
 
   const addGoalHandler = enteredText => {
-    console.log();
+    console.log('...');
     
     setCourseGoals(prevGoals => {
       const updatedGoals = [...prevGoals];
